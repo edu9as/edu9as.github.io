@@ -26,11 +26,11 @@
   
   /* https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
   .main {
-    margin-left: 125px; 
+    margin-left: 165px; 
     padding: 0px 10px;
   }
   .sidenav {
-    width: 125px;
+    width: 155px;
     position: absolute; 
     z-index: 1;
     overflow-x: hidden;
@@ -41,7 +41,7 @@
 
   a {
     text-decoration: none;
-    color: #000;
+    color: #002;
   }
 
   .links {
@@ -73,3 +73,12 @@
     text-decoration: underline;
   }
   
+  ul.two-cols {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  * {
+    font-family:helvetica,courier,arial;
+  }
